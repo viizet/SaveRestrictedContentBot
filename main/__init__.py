@@ -21,9 +21,10 @@ AUTH = "754495556"
 
 bot = TelegramClient(
       'bot', 
+      bot_token=BOT_TOKEN,
       api_id=API_ID,
       api_hash=API_HASH,
-      bot_token=BOT_TOKEN) 
+) 
 
 userbot = Client(
     session_name=SESSION, 
