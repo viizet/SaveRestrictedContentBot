@@ -15,11 +15,15 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 API_ID = "1144902"
 API_HASH = "e743e5a4f35076e4c558a4bd713082e9"
 BOT_TOKEN = "5744410448:AAGhJMwh_5N1UIqy-VF8FhyjJbQfeC_t2vg"
-SESSION = "BQBc-T2lOk0U45xTQjGR8CKLqCxQoy5EWgjSm_9gppzbxao0cgTSip9iUYi4P5qn04Jobfz67y7PISmS2MZDJgmhBfciH8HpI_V5AelnTz4CXYQBIElolU5vdI9efaqnyC-hPFdCv7_FDDF8lFSJ4K2_S5eYDnzh_2ghPmFP8MjdPKM4FLB5yfVk0m_rMIFEhiCoE2CclTT0Od7q00fIyyBDkmJ_PZsnc8ZfdJY0eF5yspnZX93tYStd6lXg40YqqMdfSibH-LKfgZ5byos5YKA43KinqsPuGx42zOImCtcHjac1liIJH9Gvq9yT17_XqXkKgOOdufEsrik7yvwcPP0ZLPiwRAA"
+SESSION = "1BVtsOKkBu3Mkg69EJGWgLtAR-E3eL7aNrogmsxYQj9JOqe0AaivzMiB_xrOVgWvZEx-iriuQaDRexXNhQPO3KPtKG4BdxZ6wMUOkgYAZlI5sCfIFK3yOxNrwU-AFWVZesOLDZCn61mmAe71bcQSQ--l5sqbclVIvrFVOaOxcoupda59lBSTK-lJfZPBFGMRWVW22TyD_zmmbTA2wJQWwmUTHBAQLhqISCHjFRL5x-MWF7Ybv6EcpZwy93yLFMSg5wD3IVs4hSzrhHV4Av1K4eMxV87U5Rkagm-nMlZIT93w446Y_wAp3FVVHHz6h_94rvL2cfsa2Q9VDCCW6Qy1b2J0G9hkF8AU="
 FORCESUB = "hxbots"
 AUTH = "754495556"
 
-bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+bot = TelegramClient(
+      'bot', 
+      api_id=API_ID,
+      api_hash=API_HASH,
+      bot_token=BOT_TOKEN) 
 
 userbot = Client(
     session_name=SESSION, 
