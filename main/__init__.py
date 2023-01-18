@@ -21,23 +21,14 @@ AUTH = "754495556"
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
-userbot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+userbot
 
-try:
-    userbot.start()
-except BaseException:
-    print("Userbot Error ! Have you added SESSION while deploying??")
-    sys.exit(1)
+Bot 
 
-Bot = Client(
-    "SaveRestricted",
-    bot_token=BOT_TOKEN,
-    api_id=int(API_ID),
-    api_hash=API_HASH
 )    
 
 try:
-    Bot.start()
+    bot.start()
 except Exception as e:
     print(e)
     sys.exit(1)
