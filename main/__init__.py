@@ -19,8 +19,7 @@ SESSION = "BQBc-T2lOk0U45xTQjGR8CKLqCxQoy5EWgjSm_9gppzbxao0cgTSip9iUYi4P5qn04Job
 FORCESUB = "hxbots"
 AUTH = "754495556"
 
-bot = Client('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
-
+bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 userbot = bot
 
 Bot = bot
