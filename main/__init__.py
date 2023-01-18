@@ -21,11 +21,9 @@ AUTH = "754495556"
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
-userbot
+userbot = bot
 
-Bot 
-
-)    
+Bot = bot
 
 try:
     bot.start()
