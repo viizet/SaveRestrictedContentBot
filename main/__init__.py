@@ -19,14 +19,9 @@ SESSION = "1BVtsOKkBu3Mkg69EJGWgLtAR-E3eL7aNrogmsxYQj9JOqe0AaivzMiB_xrOVgWvZEx-i
 FORCESUB = "hxbots"
 AUTH = "754495556"
 
-bot = TelegramClient(
-      'bot', 
-      bot_token=BOT_TOKEN,
-      api_id=API_ID,
-      api_hash=API_HASH,
-) 
+bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
-userbot
+userbot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 try:
     userbot.start()
