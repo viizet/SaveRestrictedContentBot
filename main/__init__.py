@@ -26,10 +26,7 @@ bot = TelegramClient(
       api_hash=API_HASH,
 ) 
 
-userbot = Client(
-    session_name=SESSION, 
-    api_hash=API_HASH, 
-    api_id=API_ID)
+userbot
 
 try:
     userbot.start()
