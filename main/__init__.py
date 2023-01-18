@@ -26,7 +26,7 @@ userbot = bot
 Bot = bot
 
 try:
-    Bot.start()
+    bot.start()
 except Exception as e:
     print(e)
     sys.exit(1)
