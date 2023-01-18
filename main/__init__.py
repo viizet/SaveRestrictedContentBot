@@ -23,7 +23,7 @@ bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 userbot = bot
 phonenum = '+918742089059'
 bot.connect()
-user=bot.get_entity(754495556)
+user=bot.get_entity('me')
 
 Bot = bot
 
