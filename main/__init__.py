@@ -24,7 +24,6 @@ bot = Client('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 userbot = bot
 
 Bot = bot
-)    
 
 try:
     Bot.start()
