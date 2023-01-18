@@ -19,14 +19,28 @@ SESSION = "BQBc-T2lOk0U45xTQjGR8CKLqCxQoy5EWgjSm_9gppzbxao0cgTSip9iUYi4P5qn04Job
 FORCESUB = "hxbots"
 AUTH = "754495556"
 
-bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
-userbot = bot
-
-Bot = bot
+userbot = Client(
+    session_name=SESSION, 
+    api_hash=API_HASH, 
+    api_id=API_ID)
 
 try:
-    bot.start()
+    userbot.start()
+except BaseException:
+    print("Userbot Error ! Have you added SESSION while deploying??")
+    sys.exit(1)
+
+Bot = Client(
+    "SaveRestricted",
+    bot_token=BOT_TOKEN,
+    api_id=int(API_ID),
+    api_hash=API_HASH
+)    
+
+try:
+    Bot.start()
 except Exception as e:
     print(e)
     sys.exit(1)
