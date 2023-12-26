@@ -12,16 +12,16 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = "1144902"
-API_HASH = "e743e5a4f35076e4c558a4bd713082e9"
-BOT_TOKEN = "1779838194:AAG6wRcF4mml3r0ZAD1Txy2fehxoS5QJRD4"
-SESSION = "BQBdNU7gqnSDCqnUDQftXhc51QiUmGpk0fCmLRTM6M9sVCYL9aCvEDSPJYwdsh5q0OG-GznglgP-lmlWsUDdtsXjbEalL3IaSyA4UPmbDFsAOwwFXPITPiVAoDoPnNwqlgkN00PO0Y2VWjJT5pQ_F8c2KW9E_uF8ikcKVgXMiHkARS2NBXKuJg09sHKf46oUgaL2Nt98THeX-pF9E9P9Xlki1sxlAPK0Bo9BUBaVLimUCNsRnd4cRZRoHbBudOqRHv9As5I36mx1WrdEW5L5fI_w7qViPm_SkHjP5Lp6XV5t3DCOA42-cuO21jnUvm_kZSc92bQ3ZnU9tecIHYRYlM4PLPiwRAA"
-FORCESUB = "hxbots"
+API_ID = "26176218"
+API_HASH = "4a50bc8acb0169930f5914eb88091736"
+BOT_TOKEN = "6720741095:AAFRnLXaHMuF00S9r_EbI4O63Z5sQYAK6W0"
+SESSION = "BAE2OXsAtwrqNWV7EmeO4zL8qHPvWAn6CDb1In2GcLfkNHNppMVpEank7SWP-iJnZkrh3EBennytFzJGwnX371kJOdpQNR1dl645VlhLCJ0KffejETSnr9HPHnhTlLr4559BK6Fp0yrcUPxk-dgtUXlkfzIhWrjP3gKlbCFbXURN0yjFPnfQjx_aWGe2f1dOLchQ4bvnf4Pb3FfPQmUsfk94lWiKDWH1kZOfyeeV13gofghq6_0010_9lSv53uAfBg7hIVlMkP0JbUIbcpVI3CzGdkKzjCS8LIi-6QVlkimxNCsRpqJnzmktbv8QEBDZ5wB1uGBrRkd9HHMMGiQobif9WxXUaQAAAAFTD5D8AA"
+FORCESUB = "VzSaverestrictedcontent"
 AUTH = "754495556"
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 userbot = bot
-phonenum = '+918742089059'
+phonenum = '+256704101759'
 bot.connect()
 user=bot.get_entity('me')
 
