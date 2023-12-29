@@ -21,7 +21,6 @@ AUTH = "1096693642"
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 userbot = bot
-phonenum = '+256704101759'
 bot.connect()
 user=bot.get_entity('me')
 
